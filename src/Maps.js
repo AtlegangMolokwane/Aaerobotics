@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { GoogleMap, InfoWindow, Marker } from "@react-google-maps/api";
+import "./MapAPI.css";
 
 function Maps(props) {
   const [activeMarker, setActiveMarker] = useState(null);
@@ -30,7 +31,7 @@ function Maps(props) {
     };
 
     return (
-      <div>
+      <div className = "map_border">
         <GoogleMap
           onLoad={handleOnLoad}
           onClick={() => setActiveMarker(null)}

@@ -16,3 +16,7 @@
   height: 25px;
   margin-right: 20px;
 }
+.map_border {
+  border-style: solid;
+  border-color: #73ad21;
+}
