@@ -35,7 +35,7 @@ function Maps(props) {
         <GoogleMap
           onLoad={handleOnLoad}
           onClick={() => setActiveMarker(null)}
-          mapContainerStyle={{ width: "100%", height: "700px" }}
+          mapContainerStyle={{ width: "100%", height: "1000px" }}
         >
           {treesData.map((data) => {
             return (
